@@ -1,6 +1,6 @@
 const Events = () => {
   return (
-    <section className="py-32 relative">
+    <section id="events" className="py-32 relative">
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1920')] bg-cover bg-center opacity-5"></div>
       <div className="absolute inset-0 bg-gradient-to-b from-[#0d1117] via-transparent to-[#0a0a0f]"></div>
       <div className="max-w-7xl mx-auto px-6 relative">

@@ -44,37 +44,37 @@ const Header = () => {
           </a>
           <nav className="hidden md:flex items-center gap-8">
             <a
-              href="/#about"
+              href="#about"
               className="text-white/70 hover:text-amber-500 transition-colors text-sm tracking-wide"
             >
               About
             </a>
             <a
-              href="/#services"
+              href="#services"
               className="text-white/70 hover:text-amber-500 transition-colors text-sm tracking-wide"
             >
               Services
             </a>
             <a
-              href="/#events"
+              href="#events"
               className="text-white/70 hover:text-amber-500 transition-colors text-sm tracking-wide"
             >
               Events
             </a>
             <a
-              href="/#portfolio"
+              href="#portfolio"
               className="text-white/70 hover:text-amber-500 transition-colors text-sm tracking-wide"
             >
               Portfolio
             </a>
             <a
-              href="/#contact"
+              href="#contact"
               className="text-white/70 hover:text-amber-500 transition-colors text-sm tracking-wide"
             >
               Contact
             </a>
             <a
-              href="/#contact"
+              href="#contact"
               className="px-5 py-2.5 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-semibold rounded-full text-sm hover:shadow-lg hover:shadow-amber-500/25 transition-all"
             >
               Partner With Us
@@ -141,42 +141,42 @@ const Header = () => {
       <div className="flex flex-col h-full pt-24 px-6">
         <div className="flex flex-col space-y-6">
           <a
-            href="/#about"
+            href="#about"
             onClick={closeMobileMenu}
             className="text-white/70 hover:text-amber-500 transition-colors text-lg tracking-wide py-2 border-b border-white/5"
           >
             About
           </a>
           <a
-            href="/#services"
+            href="#services"
             onClick={closeMobileMenu}
             className="text-white/70 hover:text-amber-500 transition-colors text-lg tracking-wide py-2 border-b border-white/5"
           >
             Services
           </a>
           <a
-            href="/#events"
+            href="#events"
             onClick={closeMobileMenu}
             className="text-white/70 hover:text-amber-500 transition-colors text-lg tracking-wide py-2 border-b border-white/5"
           >
             Events
           </a>
           <a
-            href="/#portfolio"
+            href="#portfolio"
             onClick={closeMobileMenu}
             className="text-white/70 hover:text-amber-500 transition-colors text-lg tracking-wide py-2 border-b border-white/5"
           >
             Portfolio
           </a>
           <a
-            href="/#contact"
+            href="#contact"
             onClick={closeMobileMenu}
             className="text-white/70 hover:text-amber-500 transition-colors text-lg tracking-wide py-2 border-b border-white/5"
           >
             Contact
           </a>
           <a
-            href="/#contact"
+            href="#contact"
             onClick={closeMobileMenu}
             className="mt-4 px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-semibold rounded-full text-center hover:shadow-lg hover:shadow-amber-500/25 transition-all"
           >
