@@ -1,7 +1,10 @@
 import { useState } from 'react';
+import { sendEventInquiry } from '../lib/resend';
 
 const Services = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
   const [formData, setFormData] = useState({
     companyName: '',
     email: '',
@@ -9,21 +12,38 @@ const Services = () => {
     message: ''
   });
 
-  const openModal = () => setIsModalOpen(true);
+  const openModal = () => {
+    setIsModalOpen(true);
+    setSubmitStatus('idle');
+  };
+  
   const closeModal = () => {
     setIsModalOpen(false);
     setFormData({ companyName: '', email: '', number: '', message: '' });
+    setSubmitStatus('idle');
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-    closeModal();
+    setIsSubmitting(true);
+    setSubmitStatus('idle');
+
+    const result = await sendEventInquiry(formData);
+
+    setIsSubmitting(false);
+
+    if (result.success) {
+      setSubmitStatus('success');
+      setTimeout(() => {
+        closeModal();
+      }, 2000);
+    } else {
+      setSubmitStatus('error');
+    }
   };
 
   return (
@@ -439,10 +459,23 @@ const Services = () => {
 
             <button
               type="submit"
-              className="w-full px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-semibold rounded-lg hover:shadow-lg hover:shadow-amber-500/25 transition-all"
+              disabled={isSubmitting}
+              className="w-full px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-semibold rounded-lg hover:shadow-lg hover:shadow-amber-500/25 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              Submit Inquiry
+              {isSubmitting ? 'Sending...' : 'Submit Inquiry'}
             </button>
+
+            {submitStatus === 'success' && (
+              <div className="p-3 bg-green-500/10 border border-green-500/30 rounded-lg text-green-400 text-sm text-center">
+                ✓ Your inquiry has been sent successfully!
+              </div>
+            )}
+
+            {submitStatus === 'error' && (
+              <div className="p-3 bg-red-500/10 border border-red-500/30 rounded-lg text-red-400 text-sm text-center">
+                ✗ Failed to send inquiry. Please try again or contact us directly.
+              </div>
+            )}
           </form>
         </div>
       </div>
