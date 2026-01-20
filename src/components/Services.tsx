@@ -10,13 +10,15 @@ const Services = () => {
             Partner With Check Mate
           </span>
           <h2 className="text-4xl md:text-5xl font-light mt-4 mb-6">
-            Our{" "}
-            <span className="text-amber-500 font-medium">Services</span>
+            Our <span className="text-amber-500 font-medium">Services</span>
           </h2>
           <p className="text-white/60 max-w-2xl mx-auto text-lg">
-            Partner with us to design and architect events with precision
-            and impact. We craft compelling narratives ensuring every
-            brand touchpoint is strategically delivered.
+            Partner with us to design and architect events with precision and
+            impact. Whether hosted in the UAE with world-class talent or
+            expanded globally across any region, we work with our partners to
+            craft a compelling narrative and ensure every brand touchpoints are
+            strategically delivered.<br /> Book your consultation to begin ideation,
+            scoping and planning.
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
@@ -44,9 +46,7 @@ const Services = () => {
                 <path d="M5 18H3"></path>
               </svg>
             </div>
-            <h3 className="text-xl font-medium mb-3">
-              Creative Direction
-            </h3>
+            <h3 className="text-xl font-medium mb-3">Creative Direction</h3>
             <p className="text-white/50">
               Full-spectrum creative event direction and production
             </p>
@@ -107,9 +107,7 @@ const Services = () => {
                 <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
               </svg>
             </div>
-            <h3 className="text-xl font-medium mb-3">
-              Brand Partnerships
-            </h3>
+            <h3 className="text-xl font-medium mb-3">Brand Partnerships</h3>
             <p className="text-white/50">
               Strategic partnerships and dynamic sponsorship packaging
             </p>
@@ -207,14 +205,11 @@ const Services = () => {
               </span>
               <h3 className="text-3xl font-light mt-3 mb-4">
                 Complete{" "}
-                <span className="text-amber-500 font-medium">
-                  Solutions
-                </span>
+                <span className="text-amber-500 font-medium">Solutions</span>
               </h3>
               <p className="text-white/60 mb-6">
-                Check Mate offers bundled travel and experience packages,
-                ideal for international sponsors and partners bringing
-                guests.
+                Check Mate offers bundled travel and experience packages, ideal
+                for international sponsors and partners bringing guests.
               </p>
               <a
                 href="https://check-mate-events-36b511fb.base44.app/#contact"

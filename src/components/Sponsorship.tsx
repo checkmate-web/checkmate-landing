@@ -1,4 +1,55 @@
+import { useState } from 'react';
+
+const events = [
+  {
+    id: 1,
+    number: "01",
+    title: "2026 AD Race Weekend Experience",
+    subtitle: "Formula 1 Abu Dhabi Grand Prix",
+    description: "An electrifying large-scale music experience set against the adrenaline-fueled backdrop of the Formula 1 weekend. Positioned near the iconic Yas Marina Circuit, the event brings together globally renowned DJs, world-class stage production, and immersive visual storytelling.",
+    image: "./Check Mate Events_files/photo-1568605117036-5fe5e7bab0b7",
+    location: "Yas Marina Circuit, Abu Dhabi",
+    date: "December 2026",
+    audience: "HNW guests, global creatives, luxury partners"
+  },
+  {
+    id: 2,
+    number: "02",
+    title: "The Axis",
+    subtitle: "Traveling Stage Platform",
+    description: "A revolutionary mobile entertainment platform bringing world-class performances to multiple venues across the UAE. The Axis features state-of-the-art production capabilities and creates intimate yet powerful experiences for audiences.",
+    image: "./Check Mate Events_files/photo-1470229722913-7c0e2dbbafd3",
+    location: "Multiple Venues, UAE",
+    date: "Q2 2026",
+    audience: "Music enthusiasts, cultural explorers"
+  },
+  {
+    id: 3,
+    number: "03",
+    title: "The Pulse: Outdoor Scape",
+    subtitle: "Open-Air Music Experience",
+    description: "An immersive outdoor festival showcasing the best in electronic and contemporary music. Set in breathtaking landscapes, The Pulse combines natural beauty with cutting-edge sound and visual technology.",
+    image: "./Check Mate Events_files/photo-1459749411175-04bf5292ceea",
+    location: "Desert Venue, Dubai",
+    date: "March 2026",
+    audience: "Festival-goers, outdoor enthusiasts"
+  },
+  {
+    id: 4,
+    number: "04",
+    title: "Isle of Sound",
+    subtitle: "Premium Island Experience",
+    description: "An exclusive island retreat combining luxury hospitality with premium live performances. Isle of Sound offers an unparalleled multi-day experience featuring boutique accommodations, gourmet dining, and world-renowned artists.",
+    image: "./Check Mate Events_files/photo-1470225620780-dba8ba36b745",
+    location: "Private Island, UAE",
+    date: "October 2026",
+    audience: "VIP clientele, luxury seekers"
+  }
+];
+
 const Sponsorship = () => {
+  const [selectedEvent, setSelectedEvent] = useState(events[0]);
+
   return (
     <section className="py-32 relative bg-[#0d1117]">
       <div className="max-w-7xl mx-auto px-6">
@@ -26,17 +77,30 @@ const Sponsorship = () => {
             className="space-y-4"
             style={{ opacity: 1, transform: "none" }}
           >
-            <div className="p-6 rounded-xl cursor-pointer transition-all duration-300 bg-gradient-to-r from-amber-500/10 to-transparent border-l-4 border-amber-500">
+            {events.map((event) => (
+              <div 
+                key={event.id}
+                onClick={() => setSelectedEvent(event)}
+                className={`p-6 rounded-xl cursor-pointer transition-all duration-300 border-l-4 ${
+                  selectedEvent.id === event.id
+                    ? 'bg-gradient-to-r from-amber-500/10 to-transparent border-amber-500'
+                    : 'bg-white/[0.02] hover:bg-white/[0.05] border-transparent hover:border-amber-500/30'
+                }`}
+              >
               <div className="flex items-start gap-4">
-                <span className="text-2xl font-bold text-amber-500">
-                  01
+                <span className={`text-2xl font-bold ${
+                  selectedEvent.id === event.id ? 'text-amber-500' : 'text-white/20'
+                }`}>
+                  {event.number}
                 </span>
                 <div className="flex-1">
-                  <h3 className="text-xl font-medium mb-1 text-white">
-                    2026 AD Race Weekend Experience
+                  <h3 className={`text-xl font-medium mb-1 ${
+                    selectedEvent.id === event.id ? 'text-white' : 'text-white/70'
+                  }`}>
+                    {event.title}
                   </h3>
                   <p className="text-white/50 text-sm">
-                    Formula 1 Abu Dhabi Grand Prix
+                    {event.subtitle}
                   </p>
                 </div>
                 <svg
@@ -49,99 +113,17 @@ const Sponsorship = () => {
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  className="lucide lucide-chevron-right w-5 h-5 transition-transform text-amber-500 rotate-90"
+                  className={`lucide lucide-chevron-right w-5 h-5 transition-transform ${
+                    selectedEvent.id === event.id 
+                      ? 'text-amber-500 rotate-90' 
+                      : 'text-white/30'
+                  }`}
                 >
                   <path d="m9 18 6-6-6-6"></path>
                 </svg>
               </div>
             </div>
-            <div className="p-6 rounded-xl cursor-pointer transition-all duration-300 bg-white/[0.02] hover:bg-white/[0.05] border-l-4 border-transparent">
-              <div className="flex items-start gap-4">
-                <span className="text-2xl font-bold text-white/20">
-                  02
-                </span>
-                <div className="flex-1">
-                  <h3 className="text-xl font-medium mb-1 text-white/70">
-                    The Axis
-                  </h3>
-                  <p className="text-white/50 text-sm">
-                    Traveling Stage Platform
-                  </p>
-                </div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="lucide lucide-chevron-right w-5 h-5 transition-transform text-white/30"
-                >
-                  <path d="m9 18 6-6-6-6"></path>
-                </svg>
-              </div>
-            </div>
-            <div className="p-6 rounded-xl cursor-pointer transition-all duration-300 bg-white/[0.02] hover:bg-white/[0.05] border-l-4 border-transparent">
-              <div className="flex items-start gap-4">
-                <span className="text-2xl font-bold text-white/20">
-                  03
-                </span>
-                <div className="flex-1">
-                  <h3 className="text-xl font-medium mb-1 text-white/70">
-                    The Pulse: Outdoor Scape
-                  </h3>
-                  <p className="text-white/50 text-sm">
-                    Open-Air Music Experience
-                  </p>
-                </div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="lucide lucide-chevron-right w-5 h-5 transition-transform text-white/30"
-                >
-                  <path d="m9 18 6-6-6-6"></path>
-                </svg>
-              </div>
-            </div>
-            <div className="p-6 rounded-xl cursor-pointer transition-all duration-300 bg-white/[0.02] hover:bg-white/[0.05] border-l-4 border-transparent">
-              <div className="flex items-start gap-4">
-                <span className="text-2xl font-bold text-white/20">
-                  04
-                </span>
-                <div className="flex-1">
-                  <h3 className="text-xl font-medium mb-1 text-white/70">
-                    Isle of Sound
-                  </h3>
-                  <p className="text-white/50 text-sm">
-                    Premium Island Experience
-                  </p>
-                </div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="lucide lucide-chevron-right w-5 h-5 transition-transform text-white/30"
-                >
-                  <path d="m9 18 6-6-6-6"></path>
-                </svg>
-              </div>
-            </div>
+            ))}
           </div>
           <div
             className="relative"
@@ -150,26 +132,22 @@ const Sponsorship = () => {
             <div className="sticky top-8">
               <div className="relative rounded-2xl overflow-hidden mb-6 aspect-video">
                 <img
-                  src="./Check Mate Events_files/photo-1568605117036-5fe5e7bab0b7"
-                  alt="2026 AD Race Weekend Experience"
+                  src={selectedEvent.image}
+                  alt={selectedEvent.title}
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0f] via-transparent to-transparent"></div>
                 <div className="absolute bottom-4 left-4 right-4">
                   <span className="text-amber-500 font-bold text-5xl opacity-20">
-                    01
+                    {selectedEvent.number}
                   </span>
                 </div>
               </div>
               <h3 className="text-2xl font-medium mb-4">
-                2026 AD Race Weekend Experience
+                {selectedEvent.title}
               </h3>
               <p className="text-white/60 mb-6 leading-relaxed">
-                An electrifying large-scale music experience set against
-                the adrenaline-fueled backdrop of the Formula 1 weekend.
-                Positioned near the iconic Yas Marina Circuit, the event
-                brings together globally renowned DJs, world-class stage
-                production, and immersive visual storytelling.
+                {selectedEvent.description}
               </p>
               <div className="grid grid-cols-3 gap-4">
                 <div className="p-4 rounded-lg bg-white/[0.03] border border-white/5">
@@ -190,7 +168,7 @@ const Sponsorship = () => {
                   </svg>
                   <p className="text-xs text-white/50 mb-1">Location</p>
                   <p className="text-sm font-medium">
-                    Yas Marina Circuit, Abu Dhabi
+                    {selectedEvent.location}
                   </p>
                 </div>
                 <div className="p-4 rounded-lg bg-white/[0.03] border border-white/5">
@@ -218,7 +196,7 @@ const Sponsorship = () => {
                     <path d="M3 10h18"></path>
                   </svg>
                   <p className="text-xs text-white/50 mb-1">Date</p>
-                  <p className="text-sm font-medium">December 2026</p>
+                  <p className="text-sm font-medium">{selectedEvent.date}</p>
                 </div>
                 <div className="p-4 rounded-lg bg-white/[0.03] border border-white/5">
                   <svg
@@ -240,7 +218,7 @@ const Sponsorship = () => {
                   </svg>
                   <p className="text-xs text-white/50 mb-1">Audience</p>
                   <p className="text-sm font-medium line-clamp-2">
-                    HNW guests, global creatives, luxury partners
+                    {selectedEvent.audience}
                   </p>
                 </div>
               </div>
