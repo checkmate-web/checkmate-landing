@@ -1,5 +1,33 @@
+import { useState } from 'react';
+
 const Services = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [formData, setFormData] = useState({
+    companyName: '',
+    email: '',
+    number: '',
+    message: ''
+  });
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setFormData({ companyName: '', email: '', number: '', message: '' });
+  };
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    // Handle form submission here
+    console.log('Form submitted:', formData);
+    closeModal();
+  };
+
   return (
+    <>
     <section id="services" className="py-32 relative bg-gradient-to-b from-[#0a0a0f] to-[#0d1117]">
       <div className="max-w-7xl mx-auto px-6">
         <div
@@ -232,7 +260,10 @@ const Services = () => {
               </a>
             </div>
             <div className="flex flex-wrap justify-center gap-4">
-              <div className="flex items-center gap-3 px-6 py-4 rounded-full bg-white/5 border border-white/10">
+              <button 
+                onClick={openModal}
+                className="flex items-center gap-3 px-6 py-4 rounded-full bg-white/5 border border-white/10 hover:border-amber-500/30 transition-all cursor-pointer"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -257,7 +288,7 @@ const Services = () => {
                   <path d="M16 18h.01"></path>
                 </svg>
                 <span className="font-medium">Event</span>
-              </div>
+              </button>
               <div className="flex items-center gap-3 px-6 py-4 rounded-full bg-white/5 border border-white/10">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -306,6 +337,117 @@ const Services = () => {
         </div>
       </div>
     </section>
+
+    {/* Modal */}
+    {isModalOpen && (
+      <div className="fixed inset-0 z-50 flex items-center justify-center p-4 overflow-y-auto">
+        {/* Backdrop */}
+        <div 
+          className="fixed inset-0 bg-black/80 backdrop-blur-sm"
+          onClick={closeModal}
+        ></div>
+        
+        {/* Modal Content */}
+        <div className="relative bg-[#0d1117] border border-white/10 rounded-2xl max-w-md w-full p-8 shadow-2xl my-8 max-h-[90vh] overflow-y-auto">
+          <button
+            onClick={closeModal}
+            className="absolute top-4 right-4 text-white/50 hover:text-white transition-colors"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <path d="M18 6 6 18"></path>
+              <path d="m6 6 12 12"></path>
+            </svg>
+          </button>
+
+          <h3 className="text-2xl font-bold text-white mb-2 text-left">Event Inquiry</h3>
+          <p className="text-white/60 mb-6 text-left">Fill out the form and we'll get back to you shortly.</p>
+
+          <form onSubmit={handleSubmit} className="space-y-4">
+            <div>
+              <label htmlFor="companyName" className="block text-sm font-medium text-white/80 mb-2 text-left">
+                Company Name *
+              </label>
+              <input
+                type="text"
+                id="companyName"
+                name="companyName"
+                value={formData.companyName}
+                onChange={handleInputChange}
+                required
+                className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-white/40 focus:outline-none focus:border-amber-500/50 transition-colors"
+                placeholder="Your company name"
+              />
+            </div>
+
+            <div>
+              <label htmlFor="email" className="block text-sm font-medium text-white/80 mb-2 text-left">
+                Email *
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                value={formData.email}
+                onChange={handleInputChange}
+                required
+                className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-white/40 focus:outline-none focus:border-amber-500/50 transition-colors"
+                placeholder="your@email.com"
+              />
+            </div>
+
+            <div>
+              <label htmlFor="number" className="block text-sm font-medium text-white/80 mb-2 text-left">
+                Phone Number *
+              </label>
+              <input
+                type="tel"
+                id="number"
+                name="number"
+                value={formData.number}
+                onChange={handleInputChange}
+                required
+                className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-white/40 focus:outline-none focus:border-amber-500/50 transition-colors"
+                placeholder="+971 XX XXX XXXX"
+              />
+            </div>
+
+            <div>
+              <label htmlFor="message" className="block text-sm font-medium text-white/80 mb-2 text-left">
+                Message *
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                value={formData.message}
+                onChange={handleInputChange}
+                required
+                rows={4}
+                className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-white/40 focus:outline-none focus:border-amber-500/50 transition-colors resize-none"
+                placeholder="Tell us about your event requirements..."
+              ></textarea>
+            </div>
+
+            <button
+              type="submit"
+              className="w-full px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-semibold rounded-lg hover:shadow-lg hover:shadow-amber-500/25 transition-all"
+            >
+              Submit Inquiry
+            </button>
+          </form>
+        </div>
+      </div>
+    )}
+  </>
   );
 };
 
