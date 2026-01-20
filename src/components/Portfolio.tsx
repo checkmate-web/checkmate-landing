@@ -140,7 +140,7 @@ const Portfolio = () => {
             Sponsorship Opportunities Available for 2026
           </p>
           <a
-            href="https://check-mate-events-36b511fb.base44.app/#contact"
+            href="#contact"
             className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-semibold rounded-full hover:shadow-lg hover:shadow-amber-500/25 transition-all duration-300"
           >
             Inquire Now

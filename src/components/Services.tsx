@@ -212,7 +212,7 @@ const Services = () => {
                 for international sponsors and partners bringing guests.
               </p>
               <a
-                href="https://check-mate-events-36b511fb.base44.app/#contact"
+                href="#contact"
                 className="inline-flex items-center gap-2 text-amber-500 hover:text-amber-400 transition-colors font-medium"
               >
                 Book a Consultation
