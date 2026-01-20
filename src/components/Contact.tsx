@@ -162,9 +162,11 @@ const Contact = () => {
                 <div>
                   <h4 className="text-lg font-medium mb-2">Email</h4>
                   <p className="text-white/60">
-                    partnership@checkmate.ae
+                    Ahmed@checkmate.ae
                   </p>
-                  <p className="text-amber-500">checkmate.ae</p>
+                  <p className="text-white/60">
+                    contact@checkmate.ae
+                  </p>
                 </div>
               </div>
               <div className="flex items-start gap-5">
