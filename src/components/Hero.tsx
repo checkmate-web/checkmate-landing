@@ -36,10 +36,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div
-        className="absolute bottom-10 left-1/2 -translate-x-1/2"
-        style={{ transform: "translateY(1.27412px)" }}
-      >
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
