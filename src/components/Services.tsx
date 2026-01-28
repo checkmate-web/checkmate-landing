@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { sendEventInquiry } from '../lib/resend';
 
 const Services = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -32,16 +31,30 @@ const Services = () => {
     setIsSubmitting(true);
     setSubmitStatus('idle');
 
-    const result = await sendEventInquiry(formData);
+    try {
+      const response = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
 
-    setIsSubmitting(false);
+      const result = await response.json();
 
-    if (result.success) {
-      setSubmitStatus('success');
-      setTimeout(() => {
-        closeModal();
-      }, 2000);
-    } else {
+      setIsSubmitting(false);
+
+      if (response.ok && result.success) {
+        setSubmitStatus('success');
+        setTimeout(() => {
+          closeModal();
+        }, 2000);
+      } else {
+        setSubmitStatus('error');
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      setIsSubmitting(false);
       setSubmitStatus('error');
     }
   };
