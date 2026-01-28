@@ -14,7 +14,7 @@ export const sendEventInquiry = async (data: EventInquiryData) => {
   try {
     // Send inquiry to Check Mate team
     const teamEmail = await resend.emails.send({
-      from: 'Check Mate Events <onboarding@resend.dev>', // Update this with your verified domain
+      from: 'Check Mate Events <noreply@checkmate.ae>',
       to: ['contact@checkmate.ae'],
       subject: `New Event Inquiry from ${data.companyName}`,
       html: `
@@ -39,7 +39,7 @@ export const sendEventInquiry = async (data: EventInquiryData) => {
 
     // Send confirmation email to the customer
     const customerEmail = await resend.emails.send({
-      from: 'Check Mate Events <onboarding@resend.dev>', // Update this with your verified domain
+      from: 'Check Mate Events <noreply@checkmate.ae>',
       to: [data.email],
       subject: 'Thank You for Your Event Inquiry',
       html: `
