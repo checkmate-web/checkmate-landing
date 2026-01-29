@@ -17,8 +17,8 @@ const HomePage = () => {
         <div className="bg-[#0a0a0f] text-white min-h-screen w-screen">
           <Hero />
           <About />
-          <Services />
           <Events />
+          <Services />
           <Sponsorship />
           <Portfolio />
           <Partners />

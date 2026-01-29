@@ -37,7 +37,7 @@ const Header = () => {
             href="/"
           >
             <img
-              src="./Check Mate Events_files/9f30352cf_Screenshot2026-01-17at24315PM.png"
+              src="./Check Mate Events_files/LOGO.png"
               alt="Check Mate"
               className="h-12 w-auto mix-blend-screen"
             />

@@ -3,8 +3,8 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="./Check Mate Events_files/photo-1470229722913-7c0e2dbbafd3"
-          alt="Concert crowd"
+          src="./Check Mate Events_files/hero-bg-image.png"
+          alt="chess pieces over a chessboard"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-orange-900/60 via-orange-800/70 to-orange-900/80"></div>
@@ -17,7 +17,7 @@ const Hero = () => {
         >
           <div className="w-64 md:w-80 mb-8">
             <img
-              src="./Check Mate Events_files/9f30352cf_Screenshot2026-01-17at24315PM.png"
+              src="./Check Mate Events_files/LOGO.png"
               alt="Check Mate Logo"
               className="w-full h-auto drop-shadow-2xl mix-blend-screen"
             />
@@ -27,12 +27,6 @@ const Hero = () => {
           </h1>
           <p className="text-white/90 text-xs md:text-sm tracking-[0.3em] uppercase mb-12 font-light">
             Organization and Event Management
-          </p>
-          <p
-            className="text-xl md:text-2xl text-white font-light tracking-wide"
-            style={{ opacity: 1, transform: "none" }}
-          >
-            Elevating Music Festivals
           </p>
         </div>
       </div>

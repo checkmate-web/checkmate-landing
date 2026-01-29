@@ -29,7 +29,7 @@ const Partners = () => {
             <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] hover:border-amber-500/30 transition-all duration-500">
               <div className="relative aspect-[4/5] overflow-hidden">
                 <img
-                  src="./Check Mate Events_files/photo-1507003211169-0a1dd7228f2d"
+                  src="./Check Mate Events_files/ceo-image.png"
                   alt="Ahmed Al Nuaimi"
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-105"
                 />
@@ -64,7 +64,7 @@ const Partners = () => {
             <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] hover:border-amber-500/30 transition-all duration-500">
               <div className="relative aspect-[4/5] overflow-hidden">
                 <img
-                  src="./Check Mate Events_files/photo-1472099645785-5658abf4ff4e"
+                  src="./Check Mate Events_files/co-founder-image.png"
                   alt="Oren Faribi"
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-105"
                 />
@@ -97,7 +97,7 @@ const Partners = () => {
             <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] hover:border-amber-500/30 transition-all duration-500">
               <div className="relative aspect-[4/5] overflow-hidden">
                 <img
-                  src="./Check Mate Events_files/photo-1519345182560-3f2917c472ef"
+                  src="./Check Mate Events_files/coo-image.png"
                   alt="Andreas Panagos"
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-105"
                 />
