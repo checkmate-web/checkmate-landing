@@ -6,7 +6,7 @@ const events = [
     number: "01",
     title: "2026 AD Race Weekend Experience",
     subtitle: "Formula 1 Abu Dhabi Grand Prix",
-    description: "An electrifying large-scale music experience set against the adrenaline-fueled backdrop of the Formula 1 weekend. Positioned near the iconic Yas Marina Circuit, the event brings together globally renowned DJs, world-class stage production, and immersive visual storytelling.",
+    description: "An electrifying large-scale music experience set against the adrenaline-fueled backdrop of the Formula 1 weekend. Positioned near the iconic Yas Marina Circuit, the event brings together globally renowned DJs, world-class stage production, and immersive visual storytelling to create an atmosphere that mirrors the intensity and prestige of the race itself. It merges the worlds of speed, sound, and spectacle - amplifying the energy of Abu Dhabi's most thrilling weekend.",
     image: "./Check Mate Events_files/photo-1568605117036-5fe5e7bab0b7",
     location: "Yas Marina Circuit, Abu Dhabi",
     date: "December 2026",
@@ -17,10 +17,10 @@ const events = [
     number: "02",
     title: "The Axis",
     subtitle: "Traveling Stage Platform",
-    description: "A revolutionary mobile entertainment platform bringing world-class performances to multiple venues across the UAE. The Axis features state-of-the-art production capabilities and creates intimate yet powerful experiences for audiences.",
+    description: "The Axis is a traveling stage for transformation - an immersive event platform that reimagines iconic national spaces into epic backdrops for entertainment. From an airport terminal to a desert railway hub or seaport dock, The Axis turns functional infrastructure into cultural theater. Each edition aligns with a national vision or government initiative - whether unveiling a new technology, sustainability goal, or tourism milestone - creating a magnetic experience that draws visitors from across the UAE to experience an entirely new angle.",
     image: "./Check Mate Events_files/photo-1470229722913-7c0e2dbbafd3",
     location: "Multiple Venues, UAE",
-    date: "Q2 2026",
+    date: "March 2026",
     audience: "Music enthusiasts, cultural explorers"
   },
   {
@@ -28,10 +28,10 @@ const events = [
     number: "03",
     title: "The Pulse: Outdoor Scape",
     subtitle: "Open-Air Music Experience",
-    description: "An immersive outdoor festival showcasing the best in electronic and contemporary music. Set in breathtaking landscapes, The Pulse combines natural beauty with cutting-edge sound and visual technology.",
+    description: "A groundbreaking open-air music experience set against Abu Dhabi’s most breathtaking natural backdrops - from the dunes of Liwa to the oases of Al Ain. The event fuses the serenity of the desert with the pulse of world-class performances, transforming the landscape into a living stage where nature and sound converge. Designed to celebrate creativity, culture, and connection, it offers a one-of-a-kind journey that redefines what an outdoor festival can be — immersive, iconic, and deeply rooted in the spirit of the UAE.",
     image: "./Check Mate Events_files/photo-1459749411175-04bf5292ceea",
     location: "Desert Venue, Dubai",
-    date: "March 2026",
+    date: "Q2 2026",
     audience: "Festival-goers, outdoor enthusiasts"
   },
   {
@@ -39,7 +39,7 @@ const events = [
     number: "04",
     title: "Isle of Sound",
     subtitle: "Premium Island Experience",
-    description: "An exclusive island retreat combining luxury hospitality with premium live performances. Isle of Sound offers an unparalleled multi-day experience featuring boutique accommodations, gourmet dining, and world-renowned artists.",
+    description: "A premium music and lifestyle experience set on Abu Dhabi's hidden islands; where untouched nature meets the city's iconic skyline. Guests are transported to a secluded paradise featuring world-class performances, immersive digital art, and curated soundscapes that flow with the rhythm of the sea. Designed for those who seek exclusivity and wonder, the event blends relaxation, technology, and entertainment into a transformative journey, offering a front-row view of the skyline like never before, where luxury meets discovery.",
     image: "./Check Mate Events_files/photo-1470225620780-dba8ba36b745",
     location: "Private Island, UAE",
     date: "October 2026",
@@ -51,7 +51,7 @@ const Sponsorship = () => {
   const [selectedEvent, setSelectedEvent] = useState(events[0]);
 
   return (
-    <section className="py-32 relative bg-[#0d1117]">
+    <section id="sponsorship" className="py-32 relative bg-[#0d1117]">
       <div className="max-w-7xl mx-auto px-6">
         <div
           className="text-center mb-16"

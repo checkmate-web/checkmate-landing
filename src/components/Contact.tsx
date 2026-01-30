@@ -1,4 +1,8 @@
-const Contact = () => {
+interface ContactProps {
+  openModal: () => void;
+}
+
+const Contact = ({ openModal }: ContactProps) => {
   return (
     <section id="contact" className="py-32 relative">
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1920')] bg-cover bg-center opacity-5"></div>
@@ -25,7 +29,7 @@ const Contact = () => {
             className="space-y-6"
             style={{ opacity: 1, transform: "none" }}
           >
-            <div className="group p-8 rounded-2xl border border-amber-500/30 bg-gradient-to-br from-amber-500/10 to-transparent hover:border-amber-500/50 transition-all duration-300 cursor-pointer">
+            <div onClick={openModal} className="group p-8 rounded-2xl border border-amber-500/30 bg-gradient-to-br from-amber-500/10 to-transparent hover:border-amber-500/50 transition-all duration-300 cursor-pointer">
               <h3 className="text-2xl font-medium mb-3">
                 Create Your Own Event
               </h3>
@@ -52,7 +56,7 @@ const Contact = () => {
                 </svg>
               </div>
             </div>
-            <div className="group p-8 rounded-2xl border border-white/10 bg-white/[0.02] hover:border-amber-500/30 transition-all duration-300 cursor-pointer">
+            <div onClick={() => document.getElementById('sponsorship')?.scrollIntoView({ behavior: 'smooth' })} className="group p-8 rounded-2xl border border-white/10 bg-white/[0.02] hover:border-amber-500/30 transition-all duration-300 cursor-pointer">
               <h3 className="text-2xl font-medium mb-3">
                 Sponsorship Opportunities
               </h3>
@@ -79,7 +83,7 @@ const Contact = () => {
                 </svg>
               </div>
             </div>
-            <div className="group p-8 rounded-2xl border border-white/10 bg-white/[0.02] hover:border-amber-500/30 transition-all duration-300 cursor-pointer">
+            <div onClick={openModal} className="group p-8 rounded-2xl border border-white/10 bg-white/[0.02] hover:border-amber-500/30 transition-all duration-300 cursor-pointer">
               <h3 className="text-2xl font-medium mb-3">
                 Schedule Consultation
               </h3>

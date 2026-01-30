@@ -1,7 +1,12 @@
 import { useState } from 'react';
 
-const Services = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+interface ServicesProps {
+  isModalOpen: boolean;
+  setIsModalOpen: (value: boolean) => void;
+  openModal: () => void;
+}
+
+const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
   const [formData, setFormData] = useState({
@@ -10,11 +15,6 @@ const Services = () => {
     number: '',
     message: ''
   });
-
-  const openModal = () => {
-    setIsModalOpen(true);
-    setSubmitStatus('idle');
-  };
   
   const closeModal = () => {
     setIsModalOpen(false);
@@ -322,7 +322,7 @@ const Services = () => {
                 </svg>
                 <span className="font-medium">Event</span>
               </button>
-              <div className="flex items-center gap-3 px-6 py-4 rounded-full bg-white/5 border border-white/10">
+              {/* <div className="flex items-center gap-3 px-6 py-4 rounded-full bg-white/5 border border-white/10">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -347,8 +347,8 @@ const Services = () => {
                   <rect x="4" y="2" width="16" height="20" rx="2"></rect>
                 </svg>
                 <span className="font-medium">Hotel</span>
-              </div>
-              <div className="flex items-center gap-3 px-6 py-4 rounded-full bg-white/5 border border-white/10">
+              </div> */}
+              {/* <div className="flex items-center gap-3 px-6 py-4 rounded-full bg-white/5 border border-white/10">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -364,7 +364,7 @@ const Services = () => {
                   <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"></path>
                 </svg>
                 <span className="font-medium">Flight Packages</span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
