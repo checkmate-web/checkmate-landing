@@ -9,8 +9,7 @@ const Events = () => {
             Focus Areas
           </span>
           <h2 className="text-4xl md:text-5xl font-light mt-4">
-            Types of{" "}
-            <span className="text-amber-500 font-medium">Events</span>
+            Types of <span className="text-amber-500 font-medium">Events</span>
           </h2>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -59,9 +58,9 @@ const Events = () => {
                 Corporate Event
               </h3>
               <p className="text-white/50 leading-relaxed">
-                From conferences and product launches to employee
-                recognition nights, we design experiences that strengthen
-                brand culture.
+                From conferences and product launches to employee recognition
+                nights, we design experiences that strengthen brand culture and
+                corporate identity.
               </p>
               <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-500 to-amber-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
             </div>
@@ -97,9 +96,8 @@ const Events = () => {
                 Entertainment Event
               </h3>
               <p className="text-white/50 leading-relaxed">
-                From concerts and festivals to red-carpet experiences, we
-                craft high-energy, crowd-focused productions that
-                captivate audiences.
+                From concerts and festivals to red-carpet experiences , we craft
+                high-energy, crowd-focused productions that captivate audiences
               </p>
               <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-500 to-amber-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
             </div>
@@ -126,13 +124,7 @@ const Events = () => {
                   >
                     <path d="M8 2v4"></path>
                     <path d="M16 2v4"></path>
-                    <rect
-                      width="18"
-                      height="18"
-                      x="3"
-                      y="4"
-                      rx="2"
-                    ></rect>
+                    <rect width="18" height="18" x="3" y="4" rx="2"></rect>
                     <path d="M3 10h18"></path>
                   </svg>
                 </div>
@@ -141,8 +133,9 @@ const Events = () => {
                 Annual Event
               </h3>
               <p className="text-white/50 leading-relaxed">
-                Celebrate milestones, anniversaries, and yearly
-                achievements with impactful and immersive event concepts.
+                Celebrate milestones, anniversaries, and yearly achievements
+                with impactful and immersive event concepts that leave a lasting
+                impression.
               </p>
               <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-500 to-amber-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
             </div>
@@ -178,8 +171,7 @@ const Events = () => {
                 Community Event
               </h3>
               <p className="text-white/50 leading-relaxed">
-                We unite communities and brands through powerful
-                experiences rooted in entertainment and culture.
+                We unite communities and brands through powerful experiences rooted in entertainment and culture - creating moments that inspire, connect, and endure.
               </p>
               <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-500 to-amber-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
             </div>
@@ -210,11 +202,10 @@ const Events = () => {
                 </div>
               </div>
               <h3 className="text-xl font-medium mb-3 group-hover:text-amber-500 transition-colors">
-                Public Holidays &amp; Cultural
+                Public Holidays &amp; Cultural Event
               </h3>
               <p className="text-white/50 leading-relaxed">
-                Bring communities together through themed celebrations
-                honoring national holidays and cultural heritage.
+                Bring communities together through themed celebrations honoring national holidays, cultural heritage, and social unity.
               </p>
               <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-500 to-amber-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
             </div>
@@ -240,22 +231,15 @@ const Events = () => {
                     className="lucide lucide-briefcase w-6 h-6 text-amber-500"
                   >
                     <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
-                    <rect
-                      width="20"
-                      height="14"
-                      x="2"
-                      y="6"
-                      rx="2"
-                    ></rect>
+                    <rect width="20" height="14" x="2" y="6" rx="2"></rect>
                   </svg>
                 </div>
               </div>
               <h3 className="text-xl font-medium mb-3 group-hover:text-amber-500 transition-colors">
-                Executive &amp; Industry
+                Executive &amp; Industry Event
               </h3>
               <p className="text-white/50 leading-relaxed">
-                Curated gatherings for leaders and professionals to
-                connect, exchange ideas, and explore partnerships.
+                Curated gatherings for leaders and professionals to connect, exchange ideas, and explore new partnerships.
               </p>
               <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-500 to-amber-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
             </div>
