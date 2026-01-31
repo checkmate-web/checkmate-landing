@@ -56,7 +56,7 @@ const Contact = ({ openModal }: ContactProps) => {
                 </svg>
               </div>
             </div>
-            <div onClick={() => document.getElementById('sponsorship')?.scrollIntoView({ behavior: 'smooth' })} className="group p-8 rounded-2xl border border-white/10 bg-white/[0.02] hover:border-amber-500/30 transition-all duration-300 cursor-pointer">
+            <div onClick={openModal} className="group p-8 rounded-2xl border border-white/10 bg-white/[0.02] hover:border-amber-500/30 transition-all duration-300 cursor-pointer">
               <h3 className="text-2xl font-medium mb-3">
                 Sponsorship Opportunities
               </h3>

@@ -1,4 +1,9 @@
-const Portfolio = () => {
+interface PortfolioProps {
+  openModal: () => void;
+}
+
+
+const Portfolio = ({ openModal }: PortfolioProps) => {
   return (
     <section id="portfolio" className="py-32 relative">
       <div className="max-w-7xl mx-auto px-6">
@@ -139,12 +144,12 @@ const Portfolio = () => {
           <p className="text-amber-500 text-xl font-medium mb-4">
             Sponsorship Opportunities Available for 2026
           </p>
-          <a
-            href="#contact"
+          <button
+            onClick={openModal}
             className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-semibold rounded-full hover:shadow-lg hover:shadow-amber-500/25 transition-all duration-300"
           >
             Inquire Now
-          </a>
+          </button>
         </div>
       </div>
     </section>

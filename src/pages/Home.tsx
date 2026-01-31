@@ -27,7 +27,7 @@ const HomePage = () => {
           <Events />
           <Services isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} openModal={openModal} />
           <Sponsorship />
-          <Portfolio />
+          <Portfolio openModal={openModal} />
           <Partners />
           <Contact openModal={openModal} />
         </div>
