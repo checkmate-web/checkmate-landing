@@ -62,7 +62,7 @@ const Contact = ({ openModal }: ContactProps) => {
               </h3>
               <p className="text-white/60 mb-6">
                 Explore sponsorship packages for Check Mate Season
-                2025-2026.
+                2026-2027.
               </p>
               <div className="flex items-center gap-2 text-amber-500 font-medium group-hover:gap-4 transition-all">
                 View Packages{" "}
