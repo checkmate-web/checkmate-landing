@@ -16,9 +16,9 @@ const Hero = () => {
           className="flex flex-col items-center"
           style={{ opacity: 1, transform: "none" }}
         >
-          <div className="w-64 md:w-80 mb-8">
+          <div className="w-64 md:w-80 mb-6">
             <img
-              src="./Check Mate Events_files/LOGO.png"
+              src="./Check Mate Events_files/LOGO-2.png"
               alt="Check Mate Logo"
               className="w-full h-auto drop-shadow-2xl mix-blend-screen"
             />
