@@ -13,19 +13,15 @@ const Partners = () => {
             Check Mate UAE
           </span>
           <h2 className="text-4xl md:text-5xl font-light mt-4 mb-4">
-            Our{" "}
-            <span className="text-amber-500 font-medium">Partners</span>
+            Our <span className="text-amber-500 font-medium">Partners</span>
           </h2>
           <p className="text-white/60 max-w-2xl mx-auto">
-            A team of visionary leaders uniting expertise from Europe and
-            the Middle East to deliver world-class experiences.
+            A team of visionary leaders uniting expertise from Europe and the
+            Middle East to deliver world-class experiences.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
-          <div
-            className="group"
-            style={{ opacity: 1, transform: "none" }}
-          >
+          <div className="group" style={{ opacity: 1, transform: "none" }}>
             <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] hover:border-amber-500/30 transition-all duration-500">
               <div className="relative aspect-[4/5] overflow-hidden">
                 <img
@@ -41,26 +37,22 @@ const Partners = () => {
                 </div> */}
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-1">
-                  Ahmed Al Nuaimi
-                </h3>
+                <h3 className="text-xl font-bold mb-1">Ahmed Al Nuaimi</h3>
                 <p className="text-amber-500 text-sm font-medium mb-4">
                   CO-CEO | Managing Director
                 </p>
                 <p className="text-white/50 text-sm leading-relaxed line-clamp-4">
-                  A regional powerhouse in partnerships, Ahmed brings
-                  extensive experience in connecting high-level sponsors,
-                  venues, and government stakeholders. His strategic input
-                  and GCC relationships have been vital to Check Mate's
-                  expansion into the UAE and broader MENA region.
+                  A driving force behind meaningful collaborations, Ahmed
+                  specializes in connecting brands, venues, and institutions to
+                  create impactful experiences. With a deep understanding of the
+                  regional landscape and strong GCC relationships, he has been
+                  instrumental in shaping Check Mate’s growth across the UAE and
+                  the wider MENA region.
                 </p>
               </div>
             </div>
           </div>
-          <div
-            className="group"
-            style={{ opacity: 1, transform: "none" }}
-          >
+          <div className="group" style={{ opacity: 1, transform: "none" }}>
             <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] hover:border-amber-500/30 transition-all duration-500">
               <div className="relative aspect-[4/5] overflow-hidden">
                 <img
@@ -81,19 +73,14 @@ const Partners = () => {
                   CO-CEO | Founder
                 </p>
                 <p className="text-white/50 text-sm leading-relaxed line-clamp-4">
-                  Entertainment mogul and entrepreneur, owning seven of
-                  the largest venues across the region. He is recognized
-                  as one of the top producers with direct ties to global
-                  artists. His ventures have redefined live entertainment
-                  in the region.
+                  in addition to owning multiple venues and running these
+                  events,He leverages his extensive network across multiple
+                  sectors, bringing fresh perspectives to every event.
                 </p>
               </div>
             </div>
           </div>
-          <div
-            className="group"
-            style={{ opacity: 1, transform: "none" }}
-          >
+          <div className="group" style={{ opacity: 1, transform: "none" }}>
             <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.02] hover:border-amber-500/30 transition-all duration-500">
               <div className="relative aspect-[4/5] overflow-hidden">
                 <img
@@ -109,18 +96,14 @@ const Partners = () => {
                 </div> */}
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-1">
-                  Andreas Panagos
-                </h3>
-                <p className="text-amber-500 text-sm font-medium mb-4">
-                  COO
-                </p>
+                <h3 className="text-xl font-bold mb-1">Andreas Panagos</h3>
+                <p className="text-amber-500 text-sm font-medium mb-4">COO</p>
                 <p className="text-white/50 text-sm leading-relaxed line-clamp-4">
-                  Founder of Primer Festival, attracting over 30,000
-                  attendees yearly. He also manages boutique restaurants
-                  and leading hotels in Athens, bringing extensive
-                  expertise in global entertainment, lifestyle, and luxury
-                  hospitality.
+                  With Stailos as a strategic partner, we tap into a realm of
+                  large-scale experiences shaped by global insight and cultural
+                  finesse. His ability to orchestrate events for tens of
+                  thousands, combined with a lifestyle-driven approach, brings a
+                  rare blend of scale and intimacy to our productions.
                 </p>
               </div>
             </div>
