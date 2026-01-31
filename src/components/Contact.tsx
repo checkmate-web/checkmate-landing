@@ -135,8 +135,8 @@ const Contact = ({ openModal }: ContactProps) => {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium mb-2">Phone</h4>
-                  <p className="text-white/60">+971 56 128 8882</p>
                   <p className="text-white/60">+971 58 890 4503</p>
+                  <p className="text-white/60">+971 56 128 8882</p>
                 </div>
               </div>
               <div className="flex items-start gap-5">
@@ -165,9 +165,6 @@ const Contact = ({ openModal }: ContactProps) => {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium mb-2">Email</h4>
-                  <p className="text-white/60">
-                    Ahmed@checkmate.ae
-                  </p>
                   <p className="text-white/60">
                     contact@checkmate.ae
                   </p>
