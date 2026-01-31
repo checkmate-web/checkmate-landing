@@ -61,7 +61,7 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
 
   return (
     <>
-    <section id="services" className="py-32 relative bg-gradient-to-b from-[#0a0a0f] to-[#0d1117]">
+    <section id="services" className="py-32 relative bag-gradient-to-b from-[#0a0a0f] to-[#0d1117]">
       <div className="max-w-7xl mx-auto px-6">
         <div
           className="text-center mb-16"

@@ -1,6 +1,6 @@
 const Partners = () => {
   return (
-    <section className="py-32 relative bg-gradient-to-b from-[#0a0a0f] to-[#0d1117]">
+    <section className="py-32 relative bag-gradient-to-b from-[#0a0a0f] to-[#0d1117]">
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-0 left-1/4 w-[500px] h-[500px] bg-amber-500/5 rounded-full blur-3xl"></div>
       </div>

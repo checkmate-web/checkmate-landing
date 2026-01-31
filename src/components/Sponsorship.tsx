@@ -51,7 +51,7 @@ const Sponsorship = () => {
   const [selectedEvent, setSelectedEvent] = useState(events[0]);
 
   return (
-    <section id="sponsorship" className="py-32 relative bg-[#0d1117]">
+    <section id="sponsorship" className="py-32 relative bag-[#0d1117]">
       <div className="max-w-7xl mx-auto px-6">
         <div
           className="text-center mb-16"

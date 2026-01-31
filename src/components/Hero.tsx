@@ -7,8 +7,9 @@ const Hero = () => {
           alt="chess pieces over a chessboard"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-orange-900/60 via-orange-800/70 to-orange-900/80"></div>
-        <div className="absolute inset-0 bg-black/30"></div>
+        {/* <div className="absolute inset-0 bg-gradient-to-b from-orange-900/60 via-orange-800/70 to-orange-900/80"></div> */}
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0d1117] via-transparent to-[#0a0a0f]"></div>
+        {/* <div className="absolute inset-0 bg-black/30"></div> */}
       </div>
       <div className="relative z-10 text-center px-6">
         <div

@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <section id="about" className="py-32 relative overflow-hidden">
-      <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1/2 h-[600px] bg-gradient-to-l from-amber-500/5 to-transparent"></div>
+      {/* <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1/2 h-[600px] bg-gradient-to-l from-amber-500/5 to-transparent"></div> */}
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div style={{ opacity: 1, transform: "none" }}>
