@@ -190,10 +190,10 @@ const Contact = ({ openModal }: ContactProps) => {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium mb-2">Address</h4>
-                  <p className="text-white/60">Al Khalidiya</p>
                   <p className="text-white/60">Abu Dhabi</p>
+                  <p className="text-white/60">Al Khalidiya</p>
                   <p className="text-white/60">
-                    Al Rahi St, East Block 8
+                    East Block 8, Al Rahi St 
                   </p>
                 </div>
               </div>
