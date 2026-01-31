@@ -262,18 +262,17 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
           <div className="grid lg:grid-cols-2 gap-10 items-center">
             <div>
               <span className="text-amber-500 font-semibold uppercase tracking-wider text-sm">
-                Full 360 Package Offering
+                Full 360° Experience Journey
               </span>
               <h3 className="text-3xl font-light mt-3 mb-4">
-                Complete{" "}
-                <span className="text-amber-500 font-medium">Solutions</span>
+                Seamless{" "}
+                <span className="text-amber-500 font-medium">End-to-End Experiences</span>
               </h3>
               <p className="text-white/60 mb-6">
-                Check Mate offers bundled travel and experience packages, ideal
-                for international sponsors and partners bringing guests.
+                From arrival to departure, we orchestrate unforgettable journeys. Curated travel, premium accommodations, and immersive experiences—all seamlessly integrated for sponsors and VIP guests seeking extraordinary moments.
               </p>
-              <a
-                href="#contact"
+              <button 
+                onClick={openModal}
                 className="inline-flex items-center gap-2 text-amber-500 hover:text-amber-400 transition-colors font-medium"
               >
                 Book a Consultation
@@ -290,7 +289,7 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
                     d="M17 8l4 4m0 0l-4 4m4-4H3"
                   ></path>
                 </svg>
-              </a>
+              </button>
             </div>
             <div className="flex flex-wrap justify-center gap-4">
               <button 
