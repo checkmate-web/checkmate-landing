@@ -1,16 +1,16 @@
 const About = () => {
   return (
     <section id="about" className="py-32 relative overflow-hidden">
-      {/* <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1/2 h-[600px] bg-gradient-to-l from-amber-500/5 to-transparent"></div> */}
+      {/* <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1/2 h-[600px] bg-gradient-to-l from-blue-800/5 to-transparent"></div> */}
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div style={{ opacity: 1, transform: "none" }}>
-            <span className="text-amber-500 tracking-[0.2em] uppercase text-sm font-medium">
+            <span className="text-blue-800 tracking-[0.2em] uppercase text-sm font-medium">
               About Check Mate
             </span>
             <h2 className="text-4xl md:text-5xl font-light mt-4 mb-8 leading-tight">
               Where Culture
-              <span className="block text-amber-500 font-medium">
+              <span className="block text-blue-800 font-medium">
                 Meets Experience
               </span>
             </h2>
@@ -114,11 +114,11 @@ const About = () => {
                   </svg>
                 </div>
               </div>
-              <div className="absolute inset-0 border border-amber-500/20 rounded-full"></div>
-              <div className="absolute inset-8 border border-amber-500/10 rounded-full"></div>
+              <div className="absolute inset-0 border border-blue-800/20 rounded-full"></div>
+              <div className="absolute inset-8 border border-blue-800/10 rounded-full"></div>
             </div>
             <div
-              className="absolute -bottom-4 right-0 bg-gradient-to-r from-amber-500 to-amber-600 px-8 py-4 rounded-full"
+              className="absolute -bottom-4 right-0 bg-gradient-to-r from-blue-800 to-blue-900 px-8 py-4 rounded-full"
               style={{ transform: "translateY(-3.253px)" }}
             >
               <span className="text-black font-bold text-lg italic">

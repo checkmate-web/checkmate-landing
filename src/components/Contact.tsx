@@ -12,12 +12,12 @@ const Contact = ({ openModal }: ContactProps) => {
           className="text-center mb-16"
           style={{ opacity: 1, transform: "none" }}
         >
-          <span className="text-amber-500 tracking-[0.2em] uppercase text-sm font-medium">
+          <span className="text-blue-800 tracking-[0.2em] uppercase text-sm font-medium">
             Next Steps
           </span>
           <h2 className="text-4xl md:text-5xl font-light mt-4 mb-4">
             Let's Create{" "}
-            <span className="text-amber-500 font-medium">Together</span>
+            <span className="text-blue-800 font-medium">Together</span>
           </h2>
           <p className="text-white/60 max-w-2xl mx-auto">
             Book your consultation to begin ideation, scoping, and
@@ -29,7 +29,7 @@ const Contact = ({ openModal }: ContactProps) => {
             className="space-y-6"
             style={{ opacity: 1, transform: "none" }}
           >
-            <div onClick={openModal} className="group p-8 rounded-2xl border border-amber-500/30 bg-gradient-to-br from-amber-500/10 to-transparent hover:border-amber-500/50 transition-all duration-300 cursor-pointer">
+            <div onClick={openModal} className="group p-8 rounded-2xl border border-blue-800/30 bg-gradient-to-br from-blue-800/10 to-transparent hover:border-blue-800/50 transition-all duration-300 cursor-pointer">
               <h3 className="text-2xl font-medium mb-3">
                 Create Your Own Event
               </h3>
@@ -37,7 +37,7 @@ const Contact = ({ openModal }: ContactProps) => {
                 Begin ideation, scoping and planning for your custom event
                 experience.
               </p>
-              <div className="flex items-center gap-2 text-amber-500 font-medium group-hover:gap-4 transition-all">
+              <div className="flex items-center gap-2 text-blue-800 font-medium group-hover:gap-4 transition-all">
                 Get Started{" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@ const Contact = ({ openModal }: ContactProps) => {
                 </svg>
               </div>
             </div>
-            <div onClick={openModal} className="group p-8 rounded-2xl border border-white/10 bg-white/[0.02] hover:border-amber-500/30 transition-all duration-300 cursor-pointer">
+            <div onClick={openModal} className="group p-8 rounded-2xl border border-white/10 bg-white/[0.02] hover:border-blue-800/30 transition-all duration-300 cursor-pointer">
               <h3 className="text-2xl font-medium mb-3">
                 Sponsorship Opportunities
               </h3>
@@ -64,7 +64,7 @@ const Contact = ({ openModal }: ContactProps) => {
                 Explore sponsorship packages for Check Mate Season
                 2026-2027.
               </p>
-              <div className="flex items-center gap-2 text-amber-500 font-medium group-hover:gap-4 transition-all">
+              <div className="flex items-center gap-2 text-blue-800 font-medium group-hover:gap-4 transition-all">
                 View Packages{" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -83,7 +83,7 @@ const Contact = ({ openModal }: ContactProps) => {
                 </svg>
               </div>
             </div>
-            <div onClick={openModal} className="group p-8 rounded-2xl border border-white/10 bg-white/[0.02] hover:border-amber-500/30 transition-all duration-300 cursor-pointer">
+            <div onClick={openModal} className="group p-8 rounded-2xl border border-white/10 bg-white/[0.02] hover:border-blue-800/30 transition-all duration-300 cursor-pointer">
               <h3 className="text-2xl font-medium mb-3">
                 Schedule Consultation
               </h3>
@@ -91,7 +91,7 @@ const Contact = ({ openModal }: ContactProps) => {
                 Book a call with our team to discuss your vision and
                 objectives.
               </p>
-              <div className="flex items-center gap-2 text-amber-500 font-medium group-hover:gap-4 transition-all">
+              <div className="flex items-center gap-2 text-blue-800 font-medium group-hover:gap-4 transition-all">
                 Book Now{" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -117,7 +117,7 @@ const Contact = ({ openModal }: ContactProps) => {
           >
             <div className="space-y-8">
               <div className="flex items-start gap-5">
-                <div className="w-14 h-14 rounded-xl bg-amber-500/10 flex items-center justify-center flex-shrink-0">
+                <div className="w-14 h-14 rounded-xl bg-blue-800/10 flex items-center justify-center flex-shrink-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -128,7 +128,7 @@ const Contact = ({ openModal }: ContactProps) => {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="lucide lucide-phone w-6 h-6 text-amber-500"
+                    className="lucide lucide-phone w-6 h-6 text-blue-800"
                   >
                     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                   </svg>
@@ -140,7 +140,7 @@ const Contact = ({ openModal }: ContactProps) => {
                 </div>
               </div>
               <div className="flex items-start gap-5">
-                <div className="w-14 h-14 rounded-xl bg-amber-500/10 flex items-center justify-center flex-shrink-0">
+                <div className="w-14 h-14 rounded-xl bg-blue-800/10 flex items-center justify-center flex-shrink-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -151,7 +151,7 @@ const Contact = ({ openModal }: ContactProps) => {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="lucide lucide-mail w-6 h-6 text-amber-500"
+                    className="lucide lucide-mail w-6 h-6 text-blue-800"
                   >
                     <rect
                       width="20"
@@ -171,7 +171,7 @@ const Contact = ({ openModal }: ContactProps) => {
                 </div>
               </div>
               <div className="flex items-start gap-5">
-                <div className="w-14 h-14 rounded-xl bg-amber-500/10 flex items-center justify-center flex-shrink-0">
+                <div className="w-14 h-14 rounded-xl bg-blue-800/10 flex items-center justify-center flex-shrink-0">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -182,7 +182,7 @@ const Contact = ({ openModal }: ContactProps) => {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="lucide lucide-map-pin w-6 h-6 text-amber-500"
+                    className="lucide lucide-map-pin w-6 h-6 text-blue-800"
                   >
                     <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
                     <circle cx="12" cy="10" r="3"></circle>
@@ -202,7 +202,7 @@ const Contact = ({ openModal }: ContactProps) => {
               <p className="text-3xl font-light text-white/20">
                 Check Mate —
               </p>
-              <p className="text-xl text-amber-500 font-medium mt-1">
+              <p className="text-xl text-blue-800 font-medium mt-1">
                 Where Culture Meets Experience
               </p>
             </div>

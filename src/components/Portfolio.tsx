@@ -11,12 +11,12 @@ const Portfolio = ({ openModal }: PortfolioProps) => {
           className="text-center mb-20"
           style={{ opacity: 1, transform: "none" }}
         >
-          <span className="text-amber-500 tracking-[0.2em] uppercase text-sm font-medium">
+          <span className="text-blue-800 tracking-[0.2em] uppercase text-sm font-medium">
             Check Mate IP
           </span>
           <h2 className="text-4xl md:text-5xl font-light mt-4 mb-4">
             Our{" "}
-            <span className="text-amber-500 font-medium">Portfolio</span>
+            <span className="text-blue-800 font-medium">Portfolio</span>
           </h2>
           <p className="text-white/60 max-w-2xl mx-auto">
             Proven track record of creating unforgettable experiences
@@ -41,7 +41,7 @@ const Portfolio = ({ openModal }: PortfolioProps) => {
                 <span className="text-sm font-medium">Since 2018</span>
               </div>
               <h3 className="text-3xl font-bold mb-2">Sound Sphere</h3>
-              <p className="text-amber-500 text-sm font-medium mb-4">
+              <p className="text-blue-800 text-sm font-medium mb-4">
                 Lifestyle Event Series
               </p>
               <p className="text-white/60 mb-6 leading-relaxed">
@@ -51,28 +51,28 @@ const Portfolio = ({ openModal }: PortfolioProps) => {
               </p>
               <div className="space-y-3">
                 <div className="flex items-center gap-4">
-                  <span className="text-amber-500 font-bold w-12">
+                  <span className="text-blue-800 font-bold w-12">
                     2018
                   </span>
-                  <div className="w-2 h-2 rounded-full bg-amber-500"></div>
+                  <div className="w-2 h-2 rounded-full bg-blue-800"></div>
                   <span className="text-white/70 text-sm">
                     Lifestyle event series launched
                   </span>
                 </div>
                 <div className="flex items-center gap-4">
-                  <span className="text-amber-500 font-bold w-12">
+                  <span className="text-blue-800 font-bold w-12">
                     2024
                   </span>
-                  <div className="w-2 h-2 rounded-full bg-amber-500"></div>
+                  <div className="w-2 h-2 rounded-full bg-blue-800"></div>
                   <span className="text-white/70 text-sm">
                     DJ Korolova at Café Del Mar, Abu Dhabi – 450+ guests
                   </span>
                 </div>
                 <div className="flex items-center gap-4">
-                  <span className="text-amber-500 font-bold w-12">
+                  <span className="text-blue-800 font-bold w-12">
                     2025
                   </span>
-                  <div className="w-2 h-2 rounded-full bg-amber-500"></div>
+                  <div className="w-2 h-2 rounded-full bg-blue-800"></div>
                   <span className="text-white/70 text-sm">
                     International expansion to Cyprus
                   </span>
@@ -93,11 +93,11 @@ const Portfolio = ({ openModal }: PortfolioProps) => {
               <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0f] via-[#0a0a0f]/80 to-transparent"></div>
             </div>
             <div className="relative p-8 pt-48">
-              <div className="absolute top-8 right-8 px-4 py-2 rounded-full bg-gradient-to-r from-amber-500/20 to-red-500/20 backdrop-blur-sm border border-white/10">
+              <div className="absolute top-8 right-8 px-4 py-2 rounded-full bg-gradient-to-r from-blue-800/20 to-red-500/20 backdrop-blur-sm border border-white/10">
                 <span className="text-sm font-medium">Since 2018</span>
               </div>
               <h3 className="text-3xl font-bold mb-2">Primer Festival</h3>
-              <p className="text-amber-500 text-sm font-medium mb-4">
+              <p className="text-blue-800 text-sm font-medium mb-4">
                 One of Greece's Largest Electronic Festivals
               </p>
               <p className="text-white/60 mb-6 leading-relaxed">
@@ -107,28 +107,28 @@ const Portfolio = ({ openModal }: PortfolioProps) => {
               </p>
               <div className="space-y-3">
                 <div className="flex items-center gap-4">
-                  <span className="text-amber-500 font-bold w-12">
+                  <span className="text-blue-800 font-bold w-12">
                     2018
                   </span>
-                  <div className="w-2 h-2 rounded-full bg-amber-500"></div>
+                  <div className="w-2 h-2 rounded-full bg-blue-800"></div>
                   <span className="text-white/70 text-sm">
                     Festival founded in Greece
                   </span>
                 </div>
                 <div className="flex items-center gap-4">
-                  <span className="text-amber-500 font-bold w-12">
+                  <span className="text-blue-800 font-bold w-12">
                     2022
                   </span>
-                  <div className="w-2 h-2 rounded-full bg-amber-500"></div>
+                  <div className="w-2 h-2 rounded-full bg-blue-800"></div>
                   <span className="text-white/70 text-sm">
                     25,000+ visitors in a single year
                   </span>
                 </div>
                 <div className="flex items-center gap-4">
-                  <span className="text-amber-500 font-bold w-12">
+                  <span className="text-blue-800 font-bold w-12">
                     2024
                   </span>
-                  <div className="w-2 h-2 rounded-full bg-amber-500"></div>
+                  <div className="w-2 h-2 rounded-full bg-blue-800"></div>
                   <span className="text-white/70 text-sm">
                     Record-breaking two-stage edition
                   </span>
@@ -141,12 +141,12 @@ const Portfolio = ({ openModal }: PortfolioProps) => {
           className="text-center mt-16"
           style={{ opacity: 1, transform: "none" }}
         >
-          <p className="text-amber-500 text-xl font-medium mb-4">
+          <p className="text-blue-800 text-xl font-medium mb-4">
             Sponsorship Opportunities Available for 2026
           </p>
           <button
             onClick={openModal}
-            className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-semibold rounded-full hover:shadow-lg hover:shadow-amber-500/25 transition-all duration-300"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-blue-800 to-blue-900 text-black font-semibold rounded-full hover:shadow-lg hover:shadow-blue-800/25 transition-all duration-300"
           >
             Inquire Now
           </button>

@@ -67,11 +67,11 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
           className="text-center mb-16"
           style={{ opacity: 1, transform: "none" }}
         >
-          <span className="text-amber-500 tracking-[0.2em] uppercase text-sm font-medium">
+          <span className="text-blue-800 tracking-[0.2em] uppercase text-sm font-medium">
             Partner With Check Mate
           </span>
           <h2 className="text-4xl md:text-5xl font-light mt-4 mb-6">
-            Our <span className="text-amber-500 font-medium">Services</span>
+            Our <span className="text-blue-800 font-medium">Services</span>
           </h2>
           <p className="text-white/60 max-w-2xl mx-auto text-lg">
             Partner with us to design and architect events with precision and
@@ -84,10 +84,10 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
           <div
-            className="group p-8 rounded-2xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] hover:border-amber-500/20 transition-all duration-500"
+            className="group p-8 rounded-2xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] hover:border-blue-800/20 transition-all duration-500"
             style={{ opacity: 1, transform: "none" }}
           >
-            <div className="w-14 h-14 rounded-xl bg-amber-500/10 flex items-center justify-center mb-6 group-hover:bg-amber-500/20 transition-colors">
+            <div className="w-14 h-14 rounded-xl bg-blue-800/10 flex items-center justify-center mb-6 group-hover:bg-blue-800/20 transition-colors">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -98,7 +98,7 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="lucide lucide-sparkles w-7 h-7 text-amber-500"
+                className="lucide lucide-sparkles w-7 h-7 text-blue-800"
               >
                 <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path>
                 <path d="M20 3v4"></path>
@@ -113,10 +113,10 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
             </p>
           </div>
           <div
-            className="group p-8 rounded-2xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] hover:border-amber-500/20 transition-all duration-500"
+            className="group p-8 rounded-2xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] hover:border-blue-800/20 transition-all duration-500"
             style={{ opacity: 1, transform: "none" }}
           >
-            <div className="w-14 h-14 rounded-xl bg-amber-500/10 flex items-center justify-center mb-6 group-hover:bg-amber-500/20 transition-colors">
+            <div className="w-14 h-14 rounded-xl bg-blue-800/10 flex items-center justify-center mb-6 group-hover:bg-blue-800/20 transition-colors">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -127,7 +127,7 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="lucide lucide-building2 w-7 h-7 text-amber-500"
+                className="lucide lucide-building2 w-7 h-7 text-blue-800"
               >
                 <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"></path>
                 <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"></path>
@@ -146,10 +146,10 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
             </p>
           </div>
           <div
-            className="group p-8 rounded-2xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] hover:border-amber-500/20 transition-all duration-500"
+            className="group p-8 rounded-2xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] hover:border-blue-800/20 transition-all duration-500"
             style={{ opacity: 1, transform: "none" }}
           >
-            <div className="w-14 h-14 rounded-xl bg-amber-500/10 flex items-center justify-center mb-6 group-hover:bg-amber-500/20 transition-colors">
+            <div className="w-14 h-14 rounded-xl bg-blue-800/10 flex items-center justify-center mb-6 group-hover:bg-blue-800/20 transition-colors">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -160,7 +160,7 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="lucide lucide-users w-7 h-7 text-amber-500"
+                className="lucide lucide-users w-7 h-7 text-blue-800"
               >
                 <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
                 <circle cx="9" cy="7" r="4"></circle>
@@ -174,10 +174,10 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
             </p>
           </div>
           <div
-            className="group p-8 rounded-2xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] hover:border-amber-500/20 transition-all duration-500"
+            className="group p-8 rounded-2xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] hover:border-blue-800/20 transition-all duration-500"
             style={{ opacity: 1, transform: "none" }}
           >
-            <div className="w-14 h-14 rounded-xl bg-amber-500/10 flex items-center justify-center mb-6 group-hover:bg-amber-500/20 transition-colors">
+            <div className="w-14 h-14 rounded-xl bg-blue-800/10 flex items-center justify-center mb-6 group-hover:bg-blue-800/20 transition-colors">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -188,7 +188,7 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="lucide lucide-mic-vocal w-7 h-7 text-amber-500"
+                className="lucide lucide-mic-vocal w-7 h-7 text-blue-800"
               >
                 <path d="m11 7.601-5.994 8.19a1 1 0 0 0 .1 1.298l.817.818a1 1 0 0 0 1.314.087L15.09 12"></path>
                 <path d="M16.5 21.174C15.5 20.5 14.372 20 13 20c-2.058 0-3.928 2.356-6 2-2.072-.356-2.775-3.369-1.5-4.5"></path>
@@ -201,10 +201,10 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
             </p>
           </div>
           <div
-            className="group p-8 rounded-2xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] hover:border-amber-500/20 transition-all duration-500"
+            className="group p-8 rounded-2xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] hover:border-blue-800/20 transition-all duration-500"
             style={{ opacity: 1, transform: "none" }}
           >
-            <div className="w-14 h-14 rounded-xl bg-amber-500/10 flex items-center justify-center mb-6 group-hover:bg-amber-500/20 transition-colors">
+            <div className="w-14 h-14 rounded-xl bg-blue-800/10 flex items-center justify-center mb-6 group-hover:bg-blue-800/20 transition-colors">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -215,7 +215,7 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="lucide lucide-video w-7 h-7 text-amber-500"
+                className="lucide lucide-video w-7 h-7 text-blue-800"
               >
                 <path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"></path>
                 <rect x="2" y="6" width="14" height="12" rx="2"></rect>
@@ -227,10 +227,10 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
             </p>
           </div>
           <div
-            className="group p-8 rounded-2xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] hover:border-amber-500/20 transition-all duration-500"
+            className="group p-8 rounded-2xl border border-white/5 bg-white/[0.02] hover:bg-white/[0.05] hover:border-blue-800/20 transition-all duration-500"
             style={{ opacity: 1, transform: "none" }}
           >
-            <div className="w-14 h-14 rounded-xl bg-amber-500/10 flex items-center justify-center mb-6 group-hover:bg-amber-500/20 transition-colors">
+            <div className="w-14 h-14 rounded-xl bg-blue-800/10 flex items-center justify-center mb-6 group-hover:bg-blue-800/20 transition-colors">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -241,7 +241,7 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="lucide lucide-earth w-7 h-7 text-amber-500"
+                className="lucide lucide-earth w-7 h-7 text-blue-800"
               >
                 <path d="M21.54 15H17a2 2 0 0 0-2 2v4.54"></path>
                 <path d="M7 3.34V5a3 3 0 0 0 3 3a2 2 0 0 1 2 2c0 1.1.9 2 2 2a2 2 0 0 0 2-2c0-1.1.9-2 2-2h3.17"></path>
@@ -256,24 +256,24 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
           </div>
         </div>
         <div
-          className="rounded-3xl border border-amber-500/20 bg-gradient-to-br from-amber-500/5 to-transparent p-10"
+          className="rounded-3xl border border-blue-800/20 bg-gradient-to-br from-blue-800/5 to-transparent p-10"
           style={{ opacity: 1, transform: "none" }}
         >
           <div className="grid lg:grid-cols-2 gap-10 items-center">
             <div>
-              <span className="text-amber-500 font-semibold uppercase tracking-wider text-sm">
+              <span className="text-blue-800 font-semibold uppercase tracking-wider text-sm">
                 Full 360° Experience Journey
               </span>
               <h3 className="text-3xl font-light mt-3 mb-4">
                 Seamless{" "}
-                <span className="text-amber-500 font-medium">End-to-End Experiences</span>
+                <span className="text-blue-800 font-medium">End-to-End Experiences</span>
               </h3>
               <p className="text-white/60 mb-6">
                 From arrival to departure, we orchestrate unforgettable journeys. Curated travel, premium accommodations, and immersive experiences—all seamlessly integrated for sponsors and VIP guests seeking extraordinary moments.
               </p>
               <button 
                 onClick={openModal}
-                className="inline-flex items-center gap-2 text-amber-500 hover:text-amber-400 transition-colors font-medium"
+                className="inline-flex items-center gap-2 text-blue-800 hover:text-blue-700 transition-colors font-medium"
               >
                 Book a Consultation
                 <svg
@@ -294,7 +294,7 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
             <div className="flex flex-wrap justify-center gap-4">
               <button 
                 onClick={openModal}
-                className="flex items-center gap-3 px-6 py-4 rounded-full bg-white/5 border border-white/10 hover:border-amber-500/30 transition-all cursor-pointer"
+                className="flex items-center gap-3 px-6 py-4 rounded-full bg-white/5 border border-white/10 hover:border-blue-800/30 transition-all cursor-pointer"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -306,7 +306,7 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  className="lucide lucide-calendar-days w-5 h-5 text-amber-500"
+                  className="lucide lucide-calendar-days w-5 h-5 text-blue-800"
                 >
                   <path d="M8 2v4"></path>
                   <path d="M16 2v4"></path>
@@ -332,7 +332,7 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  className="lucide lucide-hotel w-5 h-5 text-amber-500"
+                  className="lucide lucide-hotel w-5 h-5 text-blue-800"
                 >
                   <path d="M10 22v-6.57"></path>
                   <path d="M12 11h.01"></path>
@@ -358,7 +358,7 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  className="lucide lucide-plane w-5 h-5 text-amber-500"
+                  className="lucide lucide-plane w-5 h-5 text-blue-800"
                 >
                   <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"></path>
                 </svg>
@@ -416,7 +416,7 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
                 value={formData.companyName}
                 onChange={handleInputChange}
                 required
-                className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-white/40 focus:outline-none focus:border-amber-500/50 transition-colors"
+                className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-white/40 focus:outline-none focus:border-blue-800/50 transition-colors"
                 placeholder="Your company name"
               />
             </div>
@@ -432,7 +432,7 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
                 value={formData.email}
                 onChange={handleInputChange}
                 required
-                className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-white/40 focus:outline-none focus:border-amber-500/50 transition-colors"
+                className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-white/40 focus:outline-none focus:border-blue-800/50 transition-colors"
                 placeholder="your@email.com"
               />
             </div>
@@ -448,7 +448,7 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
                 value={formData.number}
                 onChange={handleInputChange}
                 required
-                className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-white/40 focus:outline-none focus:border-amber-500/50 transition-colors"
+                className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-white/40 focus:outline-none focus:border-blue-800/50 transition-colors"
                 placeholder="+971 XX XXX XXXX"
               />
             </div>
@@ -464,7 +464,7 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
                 onChange={handleInputChange}
                 required
                 rows={4}
-                className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-white/40 focus:outline-none focus:border-amber-500/50 transition-colors resize-none"
+                className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-white/40 focus:outline-none focus:border-blue-800/50 transition-colors resize-none"
                 placeholder="Tell us about your event requirements..."
               ></textarea>
             </div>
@@ -472,7 +472,7 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
             <button
               type="submit"
               disabled={isSubmitting}
-              className="w-full px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-semibold rounded-lg hover:shadow-lg hover:shadow-amber-500/25 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full px-6 py-3 bg-gradient-to-r from-blue-800 to-blue-900 text-black font-semibold rounded-lg hover:shadow-lg hover:shadow-blue-800/25 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {isSubmitting ? 'Sending...' : 'Submit Inquiry'}
             </button>

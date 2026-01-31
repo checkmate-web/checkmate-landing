@@ -45,37 +45,37 @@ const Header = () => {
           <nav className="hidden md:flex items-center gap-8">
             <a
               href="#about"
-              className="text-white/70 hover:text-amber-500 transition-colors text-sm tracking-wide"
+              className="text-white/70 hover:text-blue-800 transition-colors text-sm tracking-wide"
             >
               About
             </a>
             <a
               href="#services"
-              className="text-white/70 hover:text-amber-500 transition-colors text-sm tracking-wide"
+              className="text-white/70 hover:text-blue-800 transition-colors text-sm tracking-wide"
             >
               Services
             </a>
             <a
               href="#events"
-              className="text-white/70 hover:text-amber-500 transition-colors text-sm tracking-wide"
+              className="text-white/70 hover:text-blue-800 transition-colors text-sm tracking-wide"
             >
               Events
             </a>
             <a
               href="#portfolio"
-              className="text-white/70 hover:text-amber-500 transition-colors text-sm tracking-wide"
+              className="text-white/70 hover:text-blue-800 transition-colors text-sm tracking-wide"
             >
               Portfolio
             </a>
             <a
               href="#contact"
-              className="text-white/70 hover:text-amber-500 transition-colors text-sm tracking-wide"
+              className="text-white/70 hover:text-blue-800 transition-colors text-sm tracking-wide"
             >
               Contact
             </a>
             <a
               href="#contact"
-              className="px-5 py-2.5 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-semibold rounded-full text-sm hover:shadow-lg hover:shadow-amber-500/25 transition-all"
+              className="px-5 py-2.5 bg-gradient-to-r from-blue-800 to-blue-900 text-black font-semibold rounded-full text-sm hover:shadow-lg hover:shadow-blue-800/25 transition-all"
             >
               Partner With Us
             </a>
@@ -143,42 +143,42 @@ const Header = () => {
           <a
             href="#about"
             onClick={closeMobileMenu}
-            className="text-white/70 hover:text-amber-500 transition-colors text-lg tracking-wide py-2 border-b border-white/5"
+            className="text-white/70 hover:text-blue-800 transition-colors text-lg tracking-wide py-2 border-b border-white/5"
           >
             About
           </a>
           <a
             href="#services"
             onClick={closeMobileMenu}
-            className="text-white/70 hover:text-amber-500 transition-colors text-lg tracking-wide py-2 border-b border-white/5"
+            className="text-white/70 hover:text-blue-800 transition-colors text-lg tracking-wide py-2 border-b border-white/5"
           >
             Services
           </a>
           <a
             href="#events"
             onClick={closeMobileMenu}
-            className="text-white/70 hover:text-amber-500 transition-colors text-lg tracking-wide py-2 border-b border-white/5"
+            className="text-white/70 hover:text-blue-800 transition-colors text-lg tracking-wide py-2 border-b border-white/5"
           >
             Events
           </a>
           <a
             href="#portfolio"
             onClick={closeMobileMenu}
-            className="text-white/70 hover:text-amber-500 transition-colors text-lg tracking-wide py-2 border-b border-white/5"
+            className="text-white/70 hover:text-blue-800 transition-colors text-lg tracking-wide py-2 border-b border-white/5"
           >
             Portfolio
           </a>
           <a
             href="#contact"
             onClick={closeMobileMenu}
-            className="text-white/70 hover:text-amber-500 transition-colors text-lg tracking-wide py-2 border-b border-white/5"
+            className="text-white/70 hover:text-blue-800 transition-colors text-lg tracking-wide py-2 border-b border-white/5"
           >
             Contact
           </a>
           <a
             href="#contact"
             onClick={closeMobileMenu}
-            className="mt-4 px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-black font-semibold rounded-full text-center hover:shadow-lg hover:shadow-amber-500/25 transition-all"
+            className="mt-4 px-6 py-3 bg-gradient-to-r from-blue-800 to-blue-900 text-black font-semibold rounded-full text-center hover:shadow-lg hover:shadow-blue-800/25 transition-all"
           >
             Partner With Us
           </a>
@@ -189,7 +189,7 @@ const Header = () => {
           <p className="text-white/40 text-xs tracking-wider uppercase mb-2">
             Check Mate
           </p>
-          <p className="text-amber-500 text-sm font-medium">
+          <p className="text-blue-800 text-sm font-medium">
             Organization and Event Management
           </p>
         </div>

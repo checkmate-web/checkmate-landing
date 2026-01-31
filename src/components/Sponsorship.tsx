@@ -57,12 +57,12 @@ const Sponsorship = () => {
           className="text-center mb-16"
           style={{ opacity: 1, transform: "none" }}
         >
-          <span className="text-amber-500 tracking-[0.2em] uppercase text-sm font-medium">
+          <span className="text-blue-800 tracking-[0.2em] uppercase text-sm font-medium">
             Sponsorship Opportunities
           </span>
           <h2 className="text-4xl md:text-5xl font-light mt-4 mb-4">
             2026-2027{" "}
-            <span className="text-amber-500 font-medium">
+            <span className="text-blue-800 font-medium">
               Check Mate Season
             </span>
           </h2>
@@ -83,13 +83,13 @@ const Sponsorship = () => {
                 onClick={() => setSelectedEvent(event)}
                 className={`p-6 rounded-xl cursor-pointer transition-all duration-300 border-l-4 ${
                   selectedEvent.id === event.id
-                    ? 'bg-gradient-to-r from-amber-500/10 to-transparent border-amber-500'
-                    : 'bg-white/[0.02] hover:bg-white/[0.05] border-transparent hover:border-amber-500/30'
+                    ? 'bg-gradient-to-r from-blue-800/10 to-transparent border-blue-800'
+                    : 'bg-white/[0.02] hover:bg-white/[0.05] border-transparent hover:border-blue-800/30'
                 }`}
               >
               <div className="flex items-start gap-4">
                 <span className={`text-2xl font-bold ${
-                  selectedEvent.id === event.id ? 'text-amber-500' : 'text-white/20'
+                  selectedEvent.id === event.id ? 'text-blue-800' : 'text-white/20'
                 }`}>
                   {event.number}
                 </span>
@@ -115,7 +115,7 @@ const Sponsorship = () => {
                   strokeLinejoin="round"
                   className={`lucide lucide-chevron-right w-5 h-5 transition-transform ${
                     selectedEvent.id === event.id 
-                      ? 'text-amber-500 rotate-90' 
+                      ? 'text-blue-800 rotate-90' 
                       : 'text-white/30'
                   }`}
                 >
@@ -138,7 +138,7 @@ const Sponsorship = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0f] via-transparent to-transparent"></div>
                 <div className="absolute bottom-4 left-4 right-4">
-                  <span className="text-amber-500 font-bold text-5xl opacity-20">
+                  <span className="text-blue-800 font-bold text-5xl opacity-20">
                     {selectedEvent.number}
                   </span>
                 </div>
@@ -161,7 +161,7 @@ const Sponsorship = () => {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="lucide lucide-map-pin w-4 h-4 text-amber-500 mb-2"
+                    className="lucide lucide-map-pin w-4 h-4 text-blue-800 mb-2"
                   >
                     <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
                     <circle cx="12" cy="10" r="3"></circle>
@@ -182,7 +182,7 @@ const Sponsorship = () => {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="lucide lucide-calendar w-4 h-4 text-amber-500 mb-2"
+                    className="lucide lucide-calendar w-4 h-4 text-blue-800 mb-2"
                   >
                     <path d="M8 2v4"></path>
                     <path d="M16 2v4"></path>
@@ -209,7 +209,7 @@ const Sponsorship = () => {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="lucide lucide-users w-4 h-4 text-amber-500 mb-2"
+                    className="lucide lucide-users w-4 h-4 text-blue-800 mb-2"
                   >
                     <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
                     <circle cx="9" cy="7" r="4"></circle>
