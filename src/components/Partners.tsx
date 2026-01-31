@@ -34,11 +34,11 @@ const Partners = () => {
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0f] via-[#0a0a0f]/50 to-transparent"></div>
-                <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-amber-500/20 backdrop-blur-sm border border-amber-500/30">
+                {/* <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-amber-500/20 backdrop-blur-sm border border-amber-500/30">
                   <span className="text-amber-500 text-xs font-bold">
                     MBA
                   </span>
-                </div>
+                </div> */}
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-1">
@@ -69,11 +69,11 @@ const Partners = () => {
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0f] via-[#0a0a0f]/50 to-transparent"></div>
-                <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-amber-500/20 backdrop-blur-sm border border-amber-500/30">
+                {/* <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-amber-500/20 backdrop-blur-sm border border-amber-500/30">
                   <span className="text-amber-500 text-xs font-bold">
                     MBA
                   </span>
-                </div>
+                </div> */}
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-1">Oren Faribi</h3>
@@ -102,11 +102,11 @@ const Partners = () => {
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0f] via-[#0a0a0f]/50 to-transparent"></div>
-                <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-amber-500/20 backdrop-blur-sm border border-amber-500/30">
+                {/* <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-amber-500/20 backdrop-blur-sm border border-amber-500/30">
                   <span className="text-amber-500 text-xs font-bold">
                     MBA
                   </span>
-                </div>
+                </div> */}
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-1">
