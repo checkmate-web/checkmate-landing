@@ -1,6 +1,10 @@
 import { useState, useEffect } from 'react';
 
-const Header = () => {
+interface HeaderProps {
+  openModal: () => void;
+}
+
+const Header =  ({ openModal }: HeaderProps) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -50,16 +54,16 @@ const Header = () => {
               About
             </a>
             <a
-              href="#services"
-              className="text-white/70 hover:text-blue-800 transition-colors text-sm tracking-wide"
-            >
-              Services
-            </a>
-            <a
               href="#events"
               className="text-white/70 hover:text-blue-800 transition-colors text-sm tracking-wide"
             >
               Events
+            </a>
+            <a
+              href="#services"
+              className="text-white/70 hover:text-blue-800 transition-colors text-sm tracking-wide"
+            >
+              Services
             </a>
             <a
               href="#portfolio"
@@ -73,12 +77,12 @@ const Header = () => {
             >
               Contact
             </a>
-            <a
-              href="#contact"
+            <button
+              onClick={openModal}
               className="px-5 py-2.5 bg-gradient-to-r from-blue-800 to-blue-900 text-black font-semibold rounded-full text-sm hover:shadow-lg hover:shadow-blue-800/25 transition-all"
             >
               Partner With Us
-            </a>
+            </button>
           </nav>
           <button 
             onClick={toggleMobileMenu}
