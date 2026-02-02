@@ -99,7 +99,7 @@ const Partners = () => {
                 <h3 className="text-xl font-bold mb-1">Andreas Panagos</h3>
                 <p className="text-blue-800 text-sm font-medium mb-4">COO</p>
                 <p className="text-white/50 text-sm leading-relaxed line-clamp-4">
-                  With Stailos as a strategic partner, we tap into a realm of
+                  With Andreas Panagos as a strategic partner, we tap into a realm of
                   large-scale experiences shaped by global insight and cultural
                   finesse. His ability to orchestrate events for tens of
                   thousands, combined with a lifestyle-driven approach, brings a
