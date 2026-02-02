@@ -42,7 +42,9 @@ const About = () => {
             style={{ opacity: 1, transform: "none" }}
           >
             <div className="relative aspect-square max-w-lg mx-auto">
-              <div className="absolute inset-0 flex items-center justify-center">
+              <img src="./Check Mate Events_files/global-network-digital-earth-visualization.png" alt="globe" className="w-full h-full object-cover" />
+
+              <div className="hidden absolute inset-0 fflex items-center justify-center">
                 <div className="relative w-64 h-64">
                   <svg viewBox="0 0 200 200" className="w-full h-full">
                     <defs>
