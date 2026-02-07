@@ -26,13 +26,13 @@ const events = [
   {
     id: 3,
     number: "03",
-    title: "The Pulse: Outdoor Scape",
-    subtitle: "Open-Air Music Experience",
-    description: "A groundbreaking open-air music experience set against Abu Dhabi’s most breathtaking natural backdrops - from the dunes of Liwa to the oases of Al Ain. The event fuses the serenity of the desert with the pulse of world-class performances, transforming the landscape into a living stage where nature and sound converge. Designed to celebrate creativity, culture, and connection, it offers a one-of-a-kind journey that redefines what an outdoor festival can be — immersive, iconic, and deeply rooted in the spirit of the UAE.",
+    title: "The Pulse",
+    subtitle: "Outdoor Scape",
+    description: "A groundbreaking outdoor music experience set against Abu Dhabi's most breathtaking natural backdrops - from the dunes of Liwa to the oases of Al Ain. The event fuses the serenity of the desert with the pulse of world-class performances, transforming the landscape into a living stage where nature and sound converge. Designed to celebrate creativity, culture, and connection, it offers a one-of-a-kind journey that redefines what an outdoor festival can be — immersive, iconic, and deeply rooted in the spirit of the UAE.",
     image: "./Check Mate Events_files/photo-1459749411175-04bf5292ceea",
-    location: "Desert Venue, Dubai",
-    date: "Q2 2026",
-    audience: "Festival-goers, outdoor enthusiasts"
+    location: "Outdoor Venue, Alain - Liwa ",
+    date: "Q1, Q4",
+    audience: "Nature-loving music Experience"
   },
   {
     id: 4,
