@@ -6,7 +6,7 @@ const events = [
     number: "01",
     title: "Race Weekend Experience",
     subtitle: "Yas Marina circuit",
-    description: "A dynamic music and lifestyle destination built around the energy of Formula 1. Positioned beside Yas Marina Circuit, the event combines global talent, cutting-edge production, and immersive storytelling to match the intensity of Race Weekend. This IP is designed as a turnkey sponsorship opportunity, giving partners access to premium audiences across large‑scale festivals and exclusive yacht hospitality. Sponsors can entertain guests on private yachts during the race, activate their brand in high‑visibility zones, and align with one of the UAE’s most prestigious weekends. A seamless way for brands to connect with fans, clients, and VIPs while being part of Abu Dhabi's most electrifying moment.",
+    description: "A dynamic music and lifestyle destination built around the energy of Formula 1. Positioned beside Yas Marina Circuit, the event combines global talent, cutting-edge production, and immersive storytelling to match the intensity of Race Weekend. This IP is designed as a turnkey sponsorship opportunity, giving partners access to premium audiences across large-scale festivals and exclusive yacht hospitality. Sponsors can entertain guests on private yachts during the race, activate their brand in high‑visibility zones, and align with one of the UAE’s most prestigious weekends. A seamless way for brands to connect with fans, clients, and VIPs while being part of Abu Dhabi's most electrifying moment.",
     image: "./Check Mate Events_files/yacht-party-during-f1-night-race.png",
     location: "Yas Marina Circuit, Abu Dhabi",
     date: "Q4",
@@ -16,12 +16,12 @@ const events = [
     id: 2,
     number: "02",
     title: "The Axis",
-    subtitle: "Traveling Stage Platform",
-    description: "The Axis is a traveling stage for transformation - an immersive event platform that reimagines iconic national spaces into epic backdrops for entertainment. From an airport terminal to a desert railway hub or seaport dock, The Axis turns functional infrastructure into cultural theater. Each edition aligns with a national vision or government initiative - whether unveiling a new technology, sustainability goal, or tourism milestone - creating a magnetic experience that draws visitors from across the UAE to experience an entirely new angle.",
+    subtitle: "Nature-loving music Experience",
+    description: "The Axis is a bold, traveling event platform that transforms unexpected spaces into iconic music and entertainment destinations. Each edition is crafted as a one-of-a-kind experience—blending music, high-end production, and unique locations to attract large, engaged audiences. The result is a powerful event format that delivers scale, energy, and commercial impact for venue and brand partners alike.",
     image: "./Check Mate Events_files/photo-1470229722913-7c0e2dbbafd3",
-    location: "Multiple Venues, UAE",
-    date: "March 2026",
-    audience: "Music enthusiasts, cultural explorers"
+    location: "Multiple Venues, Abu Dhabi",
+    date: "Q2",
+    audience: "Music Lovers, Finest guests, global creatives, luxury partners"
   },
   {
     id: 3,
