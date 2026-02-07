@@ -269,7 +269,7 @@ const Services = ({ isModalOpen, setIsModalOpen, openModal }: ServicesProps) => 
                 <span className="text-blue-800 font-medium">End-to-End Experiences</span>
               </h3>
               <p className="text-white/60 mb-6">
-                From arrival to departure, we orchestrate unforgettable journeys. Curated travel, premium accommodations, and immersive experiences—all seamlessly integrated for sponsors and VIP guests seeking extraordinary moments.
+                From first touchpoint to final moment, we design and manage every element of the event journey—ensuring seamless coordination, elevated experiences, and flawless execution.
               </p>
               <button 
                 onClick={openModal}
