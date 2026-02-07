@@ -61,7 +61,7 @@ const Sponsorship = () => {
             Sponsorship Opportunities
           </span>
           <h2 className="text-4xl md:text-5xl font-light mt-4 mb-4">
-            2026-2027{" "}
+            {/* 2026-2027{" "} */}
             <span className="text-blue-800 font-medium">
               Check Mate Season
             </span>
