@@ -38,12 +38,12 @@ const events = [
     id: 4,
     number: "04",
     title: "Isle of Sound",
-    subtitle: "Premium Island Experience",
+    subtitle: "Premium Abu Dhabi Experience",
     description: "A premium music and lifestyle experience set on Abu Dhabi's hidden islands; where untouched nature meets the city's iconic skyline. Guests are transported to a secluded paradise featuring world-class performances, immersive digital art, and curated soundscapes that flow with the rhythm of the sea. Designed for those who seek exclusivity and wonder, the event blends relaxation, technology, and entertainment into a transformative journey, offering a front-row view of the skyline like never before, where luxury meets discovery.",
     image: "./Check Mate Events_files/photo-1470225620780-dba8ba36b745",
-    location: "Private Island, UAE",
-    date: "October 2026",
-    audience: "VIP clientele, luxury seekers"
+    location: "Private Island, Abu Dhabi",
+    date: "Q1",
+    audience: "Exclusive Island Explorers"
   }
 ];
 
