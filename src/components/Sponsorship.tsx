@@ -4,7 +4,7 @@ const events = [
   {
     id: 1,
     number: "01",
-    title: "2026 AD Race Weekend Experience",
+    title: "Race Weekend Experience",
     subtitle: "Formula 1 Abu Dhabi Grand Prix",
     description: "An electrifying large-scale music experience set against the adrenaline-fueled backdrop of the Formula 1 weekend. Positioned near the iconic Yas Marina Circuit, the event brings together globally renowned DJs, world-class stage production, and immersive visual storytelling to create an atmosphere that mirrors the intensity and prestige of the race itself. It merges the worlds of speed, sound, and spectacle - amplifying the energy of Abu Dhabi's most thrilling weekend.",
     image: "./Check Mate Events_files/ad-race-weekend-experience.png",
