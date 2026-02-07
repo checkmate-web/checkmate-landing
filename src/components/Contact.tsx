@@ -200,7 +200,7 @@ const Contact = ({ openModal }: ContactProps) => {
             </div>
             <div className="mt-12 pt-8 border-t border-white/10">
               <p className="text-3xl font-light text-white/20">
-                Check Mate —
+                Check Mate
               </p>
               <p className="text-xl text-blue-800 font-medium mt-1">
                 Where Culture Meets Experience
