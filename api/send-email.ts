@@ -43,7 +43,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         
         <p>Thank you for reaching out and for your interest in working with us.</p>
         
-        <p>We have successfully received your event request, and our team is currently reviewing the details. One of our representatives will contact you shortly to discuss your requirements or request any additional information if needed.</p>
+        <p>We have successfully received your request, and our team is currently reviewing the details. One of our representatives will contact you shortly to discuss your requirements or request any additional information if needed.</p>
         
         <p>In the meantime, should you have any urgent questions or updates, please feel free to reach us via email at <a href="mailto:Contact@checkmate.ae">Contact@checkmate.ae</a> or by phone at <a href="tel:+971588904503">+971 58 890 4503</a>.</p>
         
