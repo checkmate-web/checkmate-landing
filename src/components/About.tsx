@@ -119,14 +119,14 @@ const About = () => {
               <div className="absolute inset-0 border border-blue-800/20 rounded-full"></div>
               <div className="absolute inset-8 border border-blue-800/10 rounded-full"></div>
             </div>
-            <div
+            {/* <div
               className="absolute -bottom-4 right-0 bg-gradient-to-r from-blue-800 to-blue-900 px-8 py-4 rounded-full"
               style={{ transform: "translateY(-3.253px)" }}
             >
               <span className="text-black font-bold text-lg italic">
                 READY TO PLAY?
               </span>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
