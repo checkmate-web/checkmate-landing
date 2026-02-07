@@ -6,11 +6,11 @@ const events = [
     number: "01",
     title: "Race Weekend Experience",
     subtitle: "Yas Marina circuit",
-    description: "An electrifying large-scale music experience set against the adrenaline-fueled backdrop of the Formula 1 weekend. Positioned near the iconic Yas Marina Circuit, the event brings together globally renowned DJs, world-class stage production, and immersive visual storytelling to create an atmosphere that mirrors the intensity and prestige of the race itself. It merges the worlds of speed, sound, and spectacle - amplifying the energy of Abu Dhabi's most thrilling weekend.",
+    description: "A dynamic music and lifestyle destination built around the energy of Formula 1. Positioned beside Yas Marina Circuit, the event combines global talent, cutting-edge production, and immersive storytelling to match the intensity of Race Weekend. This IP is designed as a turnkey sponsorship opportunity, giving partners access to premium audiences across large‑scale festivals and exclusive yacht hospitality. Sponsors can entertain guests on private yachts during the race, activate their brand in high‑visibility zones, and align with one of the UAE’s most prestigious weekends. A seamless way for brands to connect with fans, clients, and VIPs while being part of Abu Dhabi's most electrifying moment.",
     image: "./Check Mate Events_files/yacht-party-during-f1-night-race.png",
     location: "Yas Marina Circuit, Abu Dhabi",
-    date: "December 2026",
-    audience: "HNW guests, global creatives, luxury partners"
+    date: "Q4",
+    audience: "Engaged Race Weekend Community"
   },
   {
     id: 2,
